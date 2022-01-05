@@ -1,0 +1,168 @@
+/*
+Kyle Adams
+CSCI 4000-W1B
+11/15/2019
+*/
+
+html {
+	background-color: #5dade2;
+}
+
+body {
+	background-color: #2980B9;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 800px;
+	border: 1px solid #fcf3cf;
+	margin: 0 auto;
+	box-shadow: 0px 10px 22px 6px #d5dbdb;
+}
+
+/***********
+*  Header  *
+***********/
+header {
+	background-color: #34495e;
+	padding: 1px;
+}
+
+h1 {
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #5dade2;
+}
+
+/*********
+*  Body  *
+*********/
+a {
+	font-weight: bold;
+	color: #f1c40f;
+}
+
+br {
+	clear: left;
+}
+
+#index h2, #index h3, #data label, #data input, #data select {
+	float: left;
+}
+
+#index h2, #index h3 {
+	color: #f1c40f;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
+/**********************
+*   Div add_student   *
+**********************/
+#add_student section {
+	margin: 25px auto 100px 50px;
+}
+
+#add_student h2 {
+	color: #f1c40f;
+}
+
+#add_student form {
+	margin-bottom: 50px;
+}
+
+/****************
+*    Div data   *
+****************/
+#data label, #data input, #data select {
+	margin-bottom: 10px;
+}
+
+#data label {
+	width:100px;
+	color: #34495e;
+}
+
+#data input {
+	width: 125px;
+}
+
+/******************
+*    Div button   *
+******************/
+#button input {
+	margin-left: 100px;
+}
+
+/**************
+*  Div index  *
+**************/
+#index section {
+	width: 570px; 
+	height: 100%;
+	float: right;
+	margin: 55px 50px 40px auto;
+}
+
+#index h2 {
+	margin: 10px auto auto 40px;
+}
+
+#index table {
+	width: 500px;
+	border: 1px solid #fcf3cf;
+	border-collapse: collapse;
+	margin-bottom: 40px;
+}
+
+#index th {
+	font-weight: bold;
+	text-align: center;
+	color: #fcf3cf;
+	padding: 5px 25px 5px 25px;
+}
+
+#index td {
+	text-align: right;
+	color: #d5dbdb;
+	padding: 5px 10px 5px 10px;
+}
+
+#index th, #index td {
+  border: 1px dashed #fcf3cf;
+}
+
+#index aside{
+	width: 175px;
+}
+
+#index ul{
+	line-height: 100%;
+}
+
+#index li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+/*****************
+*    Div error   *
+*****************/
+#error h2, #error p, #error a {
+	color: #f1c40f;
+	margin-left: 35px;
+	margin-right: 200px;
+}
+
+#error p, #error section {
+	margin-bottom: 50px;
+}
+
+/************
+*   Footer  *
+************/
+footer {
+	background-color: #34495e;
+	color: #f1c40f;
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	clear: both;
+}
